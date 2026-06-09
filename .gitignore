@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.env.local
+.venv/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# State files that should not be committed in examples
+STATE.md
+state.json
+*.state
+
+# Grok / agent specific
+.grok/
+.claude/
+.codex/
+*.session
