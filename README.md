@@ -13,11 +13,17 @@
 </p>
 
 <p align="center">
+  <img src="assets/visuals/loop-engineering-social-banner.jpg" alt="Loop Engineering — Design the system that prompts your agents" width="100%" />
+</p>
+
+<p align="center">
   <strong><a href="https://cobusgreyling.github.io/loop-engineering/">→ cobusgreyling.github.io/loop-engineering</a></strong>
 </p>
 
 <p align="center">
-  <img src="assets/cobus-greyling.jpg" alt="Cobus Greyling" width="640" />
+  <img src="assets/cobus-greyling.jpg" alt="Cobus Greyling" width="420" />
+  <br>
+  <sub>Personal photo • Brand visuals below</sub>
 </p>
 
 
@@ -61,6 +67,12 @@ The leverage point has moved from crafting individual prompts to designing the c
 | **+ Memory / State** | Durable spine outside any conversation |
 
 Full detail: [docs/primitives.md](docs/primitives.md) · Cross-tool matrix: [docs/primitives-matrix.md](docs/primitives-matrix.md)
+
+### Visual Overview
+
+<p align="center">
+  <img src="assets/visuals/primitives-infographic.jpg" alt="The Five Building Blocks + Memory — Loop Engineering" width="100%" />
+</p>
 
 ### Anatomy of a Loop (Mermaid)
 
