@@ -281,7 +281,7 @@ export async function runSync(options: SyncOptions): Promise<DriftReport> {
   const hasSkillsDir = await fileExists(path.join(targetDir, 'skills'))
     || await fileExists(path.join(targetDir, '.grok', 'skills'))
     || await fileExists(path.join(targetDir, '.claude', 'skills'))
-    || await fileExists(path.join(targetDir, '.codex', 'skills');
+    || await fileExists(path.join(targetDir, '.codex', 'skills'));
 
   if (skillsVersions.size === 0 && hasSkillsDir) {
     suggestions.push('No skills found. Run loop-init to scaffold skills.');

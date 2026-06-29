@@ -14,7 +14,7 @@
   "scripts": {
     "build": "tsc",
     "test": "npm run build && node --test test/sync.test.mjs",
-    "bundle": "node scripts/bundle-assets.mjs"
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "loop-engineering",
@@ -33,7 +33,11 @@
   "bugs": {
     "url": "https://github.com/cobusgreyling/loop-engineering/issues"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
+    "@types/node": "^22.0.0",
     "typescript": "^5.9.3"
   }
 }
